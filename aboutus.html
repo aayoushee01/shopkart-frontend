@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Products - Red store</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html">
+            <h1>SHOPKART</h1>
+          </a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="account-page">
+    <div class="profile-container">
+      <div class="card-container">
+        <img class="round" src="./images/my-avatar.jpeg" alt="user" />
+        <h3>Aayoushee</h3>
+        <h6>Prayagraj</h6>
+        <p>Full stack Developer and <br /> ML Enthusiast</p>
+        <a href="https://aayoushee01.github.io/personal-website/">
+          <ion-icon class="ion-icon" name="earth"></ion-icon>
+        </a>
+        <a href="https://www.linkedin.com/aayoushee-ahlawat-611180205">
+          <ion-icon class="ion-icon" name="logo-linkedin" large></ion-icon>
+        </a>
+        <a href="https://github.com/aayoushee01">
+          <ion-icon class="ion-icon" name="logo-github" large></ion-icon>
+        </a>
+        <a href="mailto:aayousheeahlawat05@gmail.com">
+          <ion-icon class="ion-icon" name="mail" large></ion-icon>
+        </a>
+        <div class="skills">
+          <h6>Skills</h6>
+          <ul>
+            <li>UI / UX</li>
+            <li>Data Structure and Algorithms</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>Node.js</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card-container">
+        <img class="round" src="./images/my-avatar-2.jpeg" alt="user" />
+        <h3>Sakshi Tanwar</h3>
+        <h6>Prayagraj</h6>
+        <p>Full stack Developer and <br /> Tech Enthusiast</p>
+        <a href="https://www.linkedin.com/in/sakshi-tanwar/">
+          <ion-icon class="ion-icon" name="logo-linkedin" large></ion-icon>
+        </a>
+        <a href="https://github.com/Sakshi2020037">
+          <ion-icon class="ion-icon" name="logo-github" large></ion-icon>
+        </a>
+        <a href="mailto:iit2020037@iiita.ac.in">
+          <ion-icon class="ion-icon" name="mail" large></ion-icon>
+        </a>
+        <div class="skills">
+          <h6>Skills</h6>
+          <ul>
+            <li>UI / UX</li>
+            <li>Full Stack Development</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>Node.js</li>
+            <li>Machine Learning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <!-- <hr /> -->
+      <p class="copyright">Copyright 2023 Meoww</p>
+    </div>
+  </footer>
+  <!-- JS for Toggle menu -->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      } else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
