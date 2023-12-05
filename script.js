@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
         date_of_birth: user.date_of_birth
       });
 
-      window.location.href = `/frontend/home.html?${queryParams}`;
+      window.location.href = `/home.html?${queryParams}`;
     } else {
       alert('User validation failed.');
     }
