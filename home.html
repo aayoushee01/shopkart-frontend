@@ -154,7 +154,7 @@
       console.log(userId);
       const recomendedProductSpan = document.getElementById('recomended-products');
 
-      fetch(`https://sprightly-licorice-edbb5d.netlify.app/api/recomended-products?user_id=${userId}`)
+      fetch(`https://shopkart-backend-6w0s.onrender.com/api/recomended-products?user_id=${userId}`)
         .then(response => response.json())
         .then(fetchedData => {
           recomended_products = fetchedData;
