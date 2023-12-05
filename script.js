@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   const profilesContainer = document.getElementById('data-container');
 
-  fetch('https://sprightly-licorice-edbb5d.netlify.app/api/data')
+  fetch('https://shopkart-backend-6w0s.onrender.com/api/data')
     .then(response => response.json())
     .then(data => {
       data.forEach(user => {
